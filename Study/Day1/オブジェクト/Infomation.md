@@ -32,6 +32,19 @@
 ```
 上記でタイトルプロパティを定義している
 
+### プロパティへのアクセス
+
+```php.index
+<?php
+	class Book{
+		public $title;
+	}
+	$japan = new Book();
+	$japan->name ="日本語";
+	echo $japan->name;
+?>
+```
+
 ### メソッド
 
 インスタンスに関連する処理
