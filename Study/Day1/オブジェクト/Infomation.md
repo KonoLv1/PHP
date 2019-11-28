@@ -49,6 +49,17 @@
 
 インスタンスに関連する処理
 
+### 定義
+```php.index
+<?php
+	class Menu{
+		public function hello(){
+			echo "こんにちは";
+		}
+	}
+}
+```	
+
 ## インスタンス
 
 クラスを元に生成された実体のこと。
